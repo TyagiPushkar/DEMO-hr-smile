@@ -66,7 +66,7 @@ function EnhancedViewExpense() {
   const { user } = useAuth();
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('md'));
-  
+
   const [expenses, setExpenses] = useState([]);
   const [employeeData, setEmployeeData] = useState([]);
   const [loading, setLoading] = useState(true);
