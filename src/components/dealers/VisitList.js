@@ -544,7 +544,7 @@ const VisitList = () => {
     }
   }, [user]);
 
-  // 🔥 GROUPING FUNCTION
+  //  GROUPING FUNCTION
   const formatData = (data) => {
     const map = {};
 
