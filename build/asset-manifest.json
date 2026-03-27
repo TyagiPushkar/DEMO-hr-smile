@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7b7cc087.css",
+    "main.js": "/static/js/main.8e21e9cf.js",
+    "static/js/977.12c0a414.chunk.js": "/static/js/977.12c0a414.chunk.js",
+    "static/js/455.7fdbca83.chunk.js": "/static/js/455.7fdbca83.chunk.js",
+    "static/js/453.df169b20.chunk.js": "/static/js/453.df169b20.chunk.js",
+    "static/media/Login.png": "/static/media/Login.eff49490c199c51476bc.png",
+    "static/media/NamamiInfotech.jpeg": "/static/media/NamamiInfotech.0ee9c7b409d76ed37a1a.jpeg",
+    "static/media/HRSmileLogo.jpeg": "/static/media/HRSmileLogo.c8c774e87cd2603121b7.jpeg",
+    "static/media/playstore.png": "/static/media/playstore.620256a10ce856d1cc2f.png",
+    "index.html": "/index.html",
+    "main.7b7cc087.css.map": "/static/css/main.7b7cc087.css.map",
+    "main.8e21e9cf.js.map": "/static/js/main.8e21e9cf.js.map",
+    "455.7fdbca83.chunk.js.map": "/static/js/455.7fdbca83.chunk.js.map",
+    "453.df169b20.chunk.js.map": "/static/js/453.df169b20.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b7cc087.css",
+    "static/js/main.8e21e9cf.js"
+  ]
+}
