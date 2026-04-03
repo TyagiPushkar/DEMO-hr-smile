@@ -660,22 +660,62 @@ function MapPage() {
       </Grid>
 
       {/* Main Content */}
-      <Grid container spacing={3}>
+      {/* <Grid container spacing={3}> */}
+      <Grid
+  container
+  spacing={3}
+  sx={{
+    width: "100%",
+    margin: 0, // removes negative margin issue
+  }}
+>
         {/* Map/Timeline View */}
-        <Grid item xs={12} md={8}>
-          <Paper elevation={2} sx={{ borderRadius: 2, height: 600 }}>
+        {/* <Grid item xs={12} md={8}>
+          <Paper elevation={2} sx={{ borderRadius: 2, height: 600 }}> */}
+
+          {/* <Grid item xs={12} md={8} sx={{ display: "flex" }}> */}
+                    <Grid
+            item
+            xs={12}
+            md={8}
+            sx={{
+              display: "flex",
+              width: "100%",
+            }}
+          >
+          <Paper
+            elevation={2}
+            sx={{
+              borderRadius: 2,
+              flex: 1,
+                  width: "100%",        // ✅ ADD THIS
+
+              display: "flex",
+              flexDirection: "column",
+              overflow: "hidden",
+            }}
+          >
             {viewMode === "map" ? (
-              <Box sx={{ p: 2, height: "100%" }}>
+              <Box sx={{ p: 1, height: "100%" }}>
                 <Typography variant="h6" gutterBottom>
                   Route Map
                 </Typography>
-                <Box
+                {/* <Box
                   sx={{
                     height: "calc(100% - 40px)",
                     borderRadius: 1,
                     overflow: "hidden",
                   }}
-                >
+                > */}
+                        <Box
+          sx={{
+            flex: 1,
+            display: "flex",
+            flexDirection: "column",
+            width: "100%",       // ✅ ADD
+            overflow: "hidden",
+          }}
+        >
                   <VisitMap
                     markers={markers}
                     mapCenter={mapCenter}

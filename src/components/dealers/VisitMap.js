@@ -14,8 +14,8 @@ function VisitMap({ markers, mapCenter }) {
   const mapRef = useRef(null);
 
   const mapContainerStyle = {
-    height: "400px",
-    width: "90%",
+    height: "600px",
+    width: "100%",
   };
 
   useEffect(() => {
